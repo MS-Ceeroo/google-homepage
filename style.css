@@ -1,0 +1,87 @@
+html{
+    background-color: white;
+    font-family: arial,sans-serif;
+}
+
+.nav{
+    display: flex;
+    margin: 7px 0 0 10px;
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+ }
+a{
+    padding: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    line-height: 50px;
+}
+
+.rechts{
+    float: right;
+}
+img{ 
+    vertical-align: middle;    
+    max-width:100%;
+    height:auto;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width:50%;
+    height:250px;
+}
+.user{
+    height: 50px;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:500px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    padding: 10px 10px 10px 40px;
+    }
+    .buttons{
+        display:flex;
+        justify-content: center;
+        margin-top: 22%;
+    }
+button{
+        background: #f4f4f4;
+        border-color: white;
+        border-radius: 5px;
+        padding: 7px 15px 7px 15px;
+        border: none;
+}
+.lucky{
+    margin-left: 15px;
+}
+
+.footer{
+    position: fixed;  
+    width:100%;      
+    background: #f2f2f2;
+    padding: 10px 0;
+    color: rgba(0,0,0,.54);
+    bottom:0;
+    line-height: 30px;
+    min-width: 1000px;
+    font-size: 12px;
+    display:inline-block;
+}
+
+.border-top{
+    border-top: 1px solid #e4e4e4;
+}
